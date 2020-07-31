@@ -1,10 +1,10 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Deploy to Environment Notification'
+description: 'Notifies SonOfYellr about a new deployment'
+author: 'IdeaCrew, Inc.'
 inputs:
-  milliseconds: # change this
+  payload_url: # change this
     required: true
-    description: 'input description here'
+    description: 'where the payload should be sent'
     default: 'default value if applicable'
 runs:
   using: 'node12'
